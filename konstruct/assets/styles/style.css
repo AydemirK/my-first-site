@@ -11,6 +11,21 @@ body {
 	padding: 0 10px;
 }
 
+.section__title {
+	font-weight: 700;
+	font-size: 18px;
+	letter-spacing: 0.13em;
+	color: #48555b;
+}
+
+.section__desc {
+	font-weight: 400;
+	font-size: 13px;
+	line-height: 177%;
+	letter-spacing: 0.01em;
+	color: #48555b;
+}
+
 .hero {
 	display: flex;
 	flex-direction: column;
@@ -93,3 +108,73 @@ body {
 	color: #066a92;
 }
 /* HEADER */
+/* ABOUT */
+.about {
+	padding: 60px 0;
+}
+
+.about__title {
+	text-align: center;
+	margin-bottom: 96px;
+}
+
+.about__content {
+	max-width: 405px;
+}
+
+.about__heading {
+	font-weight: 700;
+	font-size: 20px;
+	letter-spacing: 0.01em;
+	color: #48555b;
+}
+
+.about__desc {
+	margin-top: 26px;
+}
+/* ABOUT CARDS */
+.about__flex {
+	display: flex;
+	justify-content: space-between;
+}
+
+.about__cards {
+	display: flex;
+	column-gap: 20px;
+}
+.about__card {
+	width: 140px;
+	height: 224px;
+	padding: 15px;
+	background-color: #36485c;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: center;
+	transition: 0.3s;
+}
+
+.about__card:hover {
+	background-size: 120%;
+}
+
+.about__card:nth-child(1) {
+	background-image: url(../images/Bitmap.jpg);
+}
+
+.about__card:nth-child(2) {
+	background-image: url(../images/Bitmap_1.jpg);
+}
+
+.about__card:nth-child(3) {
+	background-image: url(../images/Bitmap_2.jpg);
+}
+
+.about__lg-title {
+	font-weight: 800;
+	font-size: 24px;
+	line-height: 121%;
+	letter-spacing: 0.01em;
+	color: #fff;
+}
+/* ABOUT CARDS */
+/* ABOUT */
